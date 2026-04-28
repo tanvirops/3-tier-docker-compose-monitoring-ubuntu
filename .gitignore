@@ -1,6 +1,4 @@
 # Environment files
-.env
-.env.*
 !.env.example
 
 # Node modules
@@ -25,7 +23,6 @@ yarn-error.log*
 Thumbs.db
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -41,3 +38,4 @@ coverage/
 
 # Docker
 docker-compose.override.yml
+config.bat
